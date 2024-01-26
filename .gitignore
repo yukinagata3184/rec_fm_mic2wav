@@ -1,0 +1,3 @@
+.pytest_cache/
+__pycache__/
+rec_fm_mic2wav.egg-info/
