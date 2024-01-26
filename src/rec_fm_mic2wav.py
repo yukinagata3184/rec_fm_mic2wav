@@ -13,7 +13,7 @@ def rec_fm_mic2wav(param_dict):
     @param param_dict [dict] Set params in dict.
     @n e.g. {"CHUNK": 1024, "CHANNELS": 1, "SAMP_RATE": 16000, "RECORD_SECONDS": 10}
     """
-    with wave.open('output.wav', 'wb') as wf:
+    with wave.open('record.wav', 'wb') as wf:
         p = pyaudio.PyAudio()
         wf.setnchannels(param_dict["CHANNELS"])
         wf.setsampwidth(p.get_sample_size(FORMAT))
