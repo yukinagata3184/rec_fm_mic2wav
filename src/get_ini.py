@@ -19,5 +19,9 @@ def get_params_fm_ini(inifile_path, section_name="DEFAULT"):
     for key in inifile_object[section_name]:
         key_list.append(key.upper())
     for key in key_list:
-        param_dict[key] = inifile_object[section_name][key]
+        param = inifile_object[section_name][key]
+        if param.isdecimal():
+            param_dict[key] = int(param)
+        else:
+            param_dict[key] = param
     return param_dict
