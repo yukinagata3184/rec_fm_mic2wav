@@ -1,5 +1,5 @@
 ##
-# @file get_params_fm_ini.py
+# @file get_ini.py
 # @brief This file implements loading an inifile to manage configuration values.
 # @author yukinagata3184
 
