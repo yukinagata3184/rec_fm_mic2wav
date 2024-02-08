@@ -1,0 +1,7 @@
+# Don't include folders generated from program execution.
+.pytest_cache/
+__pycache__/
+rec_fm_mic2wav.egg-info/
+
+# Don't include folders generated from Doxygen.
+doc_by_doxygen/
