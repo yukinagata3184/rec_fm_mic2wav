@@ -1,6 +1,6 @@
 ##
-# @file test_fm_mic2wav.py
-# @brief This file unit tests for fm_mic2wav.py.
+# @file test_rec_fm_mic2wav.py
+# @brief This file unit tests for rec_fm_mic2wav.py.
 # @author yukinagata3184
 
 import pytest
@@ -8,7 +8,7 @@ import os
 import time
 from src import rec_fm_mic2wav
 
-def test_fm_mic2wav():
+def test_rec_fm_mic2wav():
     """! Check whether the recorded wav file exists and the wav file exceeds the 
          RECORD_SECONDS time.
     """
